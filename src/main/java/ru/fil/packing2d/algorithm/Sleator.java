@@ -38,7 +38,7 @@ public class Sleator implements PackingAlgorithm {
         rectanglesForDistribution.sort(Rectangle::compareTo); // сортировка по невозрастанию высот
 
         boolean firstAdding = true;
-        int leftHeight = 0;
+        int leftHeight = maxHeight;
         int rightHeight = 0;
         int oldMaxHeight = maxHeight;
         int sumLengthSecondLevel = 0;

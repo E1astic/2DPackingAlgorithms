@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
 
         Container container = new Container(20);
-        int rectanglesNum = 100;
+        int rectanglesNum = 10;
 
         RectangleGenerator randomRectangleGenerator = new RandomRectangleGenerator();
         RectangleGenerator horizontalRectangleGenerator = new HorizontalRectangleGenerator();
